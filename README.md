@@ -1,6 +1,9 @@
 # belanja
 
-A new Flutter project.
+# Ahmad Diky Dharmawan_362358302047
+
+![screenshoot belanja](assets/image/1.png)
+![screenshoot belanja](assets/image/2.png)
 
 ## Getting Started
 
