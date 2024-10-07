@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:belanja/models/item.dart';
-import '../widgets/hero.dart'; // Import Hero
 import '../widgets/footer.dart'; // Import Footer
 
 class HomePage extends StatelessWidget {
@@ -9,7 +8,7 @@ class HomePage extends StatelessWidget {
       name: "Sugar",
       price: 5000,
       gambar: 'assets/image/gula.jpg',
-      deskripsi: 'Gula semanis senyummu',
+      deskripsi: 'Gula manis',
       stok: 20,
       rating: "5",
     ),
@@ -24,17 +23,17 @@ class HomePage extends StatelessWidget {
     // Tambahkan item lain sesuai kebutuhan
   ];
 
-  HomePage({Key? key}) : super(key: key);
+  HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("List Belanja"),
+        title: const Text("Aplikasi Belanja"),
+        backgroundColor: Colors.blue,
       ),
       body: Column(
         children: [
-          HeroSection(), // Menggunakan HeroSection dari hero_section.dart
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.all(10),
@@ -116,7 +115,7 @@ class HomePage extends StatelessWidget {
               },
             ),
           ),
-          FooterSection(), // Menggunakan FooterSection dari footer_section.dart
+          const FooterSection(), // Using FooterSection from footer_section.dart
         ],
       ),
     );

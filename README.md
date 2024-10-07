@@ -2,8 +2,8 @@
 
 # Ahmad Diky Dharmawan_362358302047
 
-![screenshoot belanja](assets/image/1.png)
-![screenshoot belanja](assets/image/2.png)
+![screenshoot belanja](assets/image/flutter1.jpg)
+![screenshoot belanja](assets/image/flutter2.jpg)
 
 ## Getting Started
 
